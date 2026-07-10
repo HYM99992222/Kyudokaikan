@@ -1,0 +1,430 @@
+/* greeting-page(index.html)*/
+.side_content{
+	width: 25%;
+	background: #0703031A;
+	margin-top: 95px;
+	height: 1600px;
+}
+
+.main-logo-wrapper{
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+.header-center-text{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.menu2{
+	color:#000000;
+	font-family: "Hiragino Sans";
+	font-size: 20px;
+	text-decoration: none;
+	border-right: 1px solid #707070;
+	padding: 0px 30px;
+}
+
+.menu2-contact{
+	color:white;
+	font-family: "Hiragino Sans";
+	font-weight: bold;
+	font-size: 20px;
+	text-decoration: none;
+	border-radius: 4px;
+	background-color: #CC0000;
+	padding: 5.35px 10px 5.65px 10px;
+	margin-left: 20px;
+}
+
+.main-logo-wrapper{
+	text-align: center;
+}
+
+.contact-title{
+	font-family: "Hiragino Sans";
+	color:#000000;
+	font-size: 16px;
+	margin-top: 30px;
+	font-weight: 300;
+}
+
+.contact-title span{
+	font-family: "Hiragino Sans";
+	color:#000000;
+	font-size: 24px;
+	font-weight: 300;
+	margin-top: 30px;
+}
+
+.content-title{
+	border-bottom: 2px solid #CC0000;
+	padding-bottom: 8px;
+	color:#CC0000;
+	font-family: "Hiragino Sans";
+	font-weight: 500;
+	font-size: 24px;
+}
+
+.tell-wrapper{
+	margin-top: 40px;
+}
+
+.tell-wrapper h3{
+	color:#000000;
+	font-family: "Hiragino Sans";
+	font-weight: 300;
+	font-size: 20px;
+	line-height: 35px;
+	margin-top: 20px;
+}
+
+.tell-text{
+	color:#cc0000;
+	font-family: "Hiragino Sans";
+	font-weight: 300;
+	font-size: 18px;
+	margin-top: 15px;
+	line-height: 25px;
+}
+
+.tell-image{
+	margin-top: 30px;
+}
+
+.tell-img{
+	display: block;
+}
+
+
+.mail-wrapper{
+	margin-top: 50px;	
+}
+
+.mail-text{
+	color:#000000;
+	font-family: "Hiragino Sans";
+	font-weight: 300;
+	font-size: 20px;
+	margin-top: 20px;
+}
+
+.mail-alert{
+	color:#000000;
+	font-family: "Hiragino Sans";
+	font-weight: 300;
+	font-size: 16px;
+	margin-top: 20px;
+	line-height: 25px;
+}
+
+.submit-contents{
+	display: block;
+	margin-top: 50px;
+}
+
+.submit-left-content{
+	width: 70%;
+}
+
+.submit-right-content{
+	width: 80%;
+}
+
+.input-area{
+	font-size: 20px;
+	color: #595959;
+	font-family: "Hiragino Sans";
+	font-weight: 400;
+	display: block;
+	width: 100%;
+	height: 50px;
+	padding: 10px;
+	margin-top: 10px;
+	background-color: rgba(48,117,181,0.06);
+	border: 1px solid rgba(205,214,221,0.06);
+	position: relative;
+}
+
+textarea{
+	font-size: 20px;
+	color: #595959;
+	font-family: "Hiragino Sans";
+	font-weight: 400;
+	display: block;
+	width: 100%;
+	height: 500px;
+	padding: 10px;
+	margin-top: 10px;
+	background-color: rgba(48,117,181,0.06);
+	border: 1px solid rgba(205,214,221,0.06);
+}
+
+.error{  
+	color: #cc0000;
+	font-family: "Hiragino Sans";
+	font-weight: 400;
+	font-size: 14px;
+	margin-top: 5px;
+}
+
+.margin-top{
+	margin-top: 30px;
+}
+
+label{
+	color: #595959;
+	font-family: "Hiragino Sans";
+	font-weight: 400;
+	font-size: 20px;
+}
+
+.check{
+	margin-top: 40px;
+	text-align: right;
+}
+
+.check-test{
+	display: none;
+}
+
+.check-test + span {
+	cursor: pointer;
+	display: inline-block;
+	margin: 0 0.2em 0;
+	padding: 0 0 0 30px;
+	position: relative;
+	font-size: 95%;
+}
+
+.check-test + span::before {
+	position: absolute;
+	-webkit-transform: translateY(-50%);
+	background: #fff;
+	border: 1px solid rgba(0, 0, 0, 0.4);
+	border-radius: 2px;
+	content: "";
+	display: block;
+	left: -1px;
+	top: 61%;
+	transform: translateY(-50%);
+	height: 17px;
+	width: 17px;
+}
+
+.check-test + span::after {
+	-webkit-transform: translateY(-50%) rotate(-45deg);
+	border-bottom: 3px solid #595959;
+	border-left: 3px solid #595959;
+	content: "";
+	display: block;
+	left: -1px;
+	margin-top: -0.2em;
+	opacity: 0;
+	position: absolute;
+	top: 61%;
+	transform: translateY(-50%) rotate(-45deg);
+	transition: all 0.3s ease 0s;
+	height: 8px;
+	width: 17px;
+}
+
+.check-test:checked + span::after {
+	opacity: 1;
+}
+
+.submit-wrapper{
+	text-align: left;
+	margin-top: 40px;
+}
+
+.submit-button{
+	color: white;
+	font-family: "Hiragino Sans";
+	font-weight: 400;
+	font-size: 24px;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 15px 45px 15px 20px;
+	background-color: #cc0000;
+	box-shadow: 0px 3px 6px #00000029;
+	border-radius: 4px;
+	position: relative;
+	display: inline-block;
+}
+
+.more{
+	font-size: 30px;
+	color: white;
+	position: absolute;
+	right: 15px;
+  top: 12px;
+}
+
+.cancel-wrapper{
+	margin-top: 60px;
+}
+
+.cancel-text{
+	color: #000000;
+	font-family: "Hiragino Sans";
+	font-weight: 300;
+	font-size: 20px;
+	margin-top: 30px;
+	line-height: 30px;
+}
+
+.cancel-text span{
+	color: #cc0000;
+	font-family: "Hiragino Sans";
+	font-weight: 300;
+	font-size: 20px;
+}
+
+footer{
+	margin-top: 50px;
+}
+
+@media screen and (max-width: 1020px) {
+.header-center-text{
+	display: flex;
+	justify-content: space-around;
+	padding: 0px 20px;
+}
+
+.menu2{
+	border-right: none;
+	padding: 0px;
+}
+
+.contents{
+	padding: 0px 25px;
+}
+
+.main-contents{
+	padding: 0px 0px 30px 40px;
+}
+
+.contact-title span{
+	font-size: 20px;
+}
+
+.submit-left-content{
+	width: 80%;
+}
+
+.submit-right-content{
+	width: 90%;
+}
+
+}
+
+@media screen and (min-width: 768px){
+	.price-table2{
+		display: none;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.contents{
+		padding: 0px 30px;
+	}
+
+	.side_content{
+	display: none;
+}
+
+.main-logo-wrapper{
+	display: none;
+}
+
+.header-center-text{
+	display: none;
+}
+
+.main-contents{
+	padding-left: 0px;
+	margin-top: 70px;
+}
+
+textarea{
+	height: 400px;
+}
+
+.submit-contents{
+	padding-left: 20px;
+}
+}
+
+@media screen and (min-width: 368px){
+	.tell-wrapper h4{
+		display: none;
+	}
+}
+
+@media screen and (max-width: 367px) {
+.contents{
+	padding: 0px 20px;
+}
+
+.tab_item {
+	width: calc(100%/4);
+	font-size: 14px;
+}
+
+.content-title{
+	font-size: 20px;
+}
+
+.tell-wrapper h3{
+	display: none;
+}
+
+.tell-wrapper h4{
+	color:#000000;
+	font-family: "Hiragino Sans";
+	font-weight: 300;
+	font-size: 20px;
+	line-height: 35px;
+	margin-top: 20px;
+}
+
+.tell-img{
+	width: 100%;
+}
+
+.cancel-text{
+	font-size: 18px;
+}	
+
+
+.submit-button{
+	color: white;
+	font-family: "Hiragino Sans";
+	font-weight: 400;
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 15px 45px 15px 20px;
+	background-color: #cc0000;
+	box-shadow: 0px 3px 6px #00000029;
+	border-radius: 4px;
+	position: relative;
+	display: inline-block;
+}
+
+.more{
+	font-size: 24px;
+	color: white;
+	position: absolute;
+	right: 16px;
+	top: 13px;
+}
+
+
+
+.input-area {
+	font-size: 18px;
+}
+}

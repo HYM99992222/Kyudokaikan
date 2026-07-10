@@ -1,0 +1,550 @@
+
+/* greeting-page(index.html)*/
+.side_content{
+	width: 25%;
+	background: #0703031A;
+	margin-top: 170px;
+	height: 1600px;
+}
+
+.main-logo-wrapper{
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+.header-center-text{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.menu2{
+	color:#000000;
+	font-family: "Hiragino Sans";
+	font-size: 20px;
+	text-decoration: none;
+	border-right: 1px solid #707070;
+	padding: 0px 50px;
+}
+
+.menu2-contact{
+	color:white;
+	font-family: "Hiragino Sans";
+	font-weight: bold;
+	font-size: 20px;
+	text-decoration: none;
+	border-radius: 4px;
+	background-color: #CC0000;
+	padding: 5.35px 10px 5.65px 10px;
+	margin-left: 20px;
+}
+
+.main-logo-wrapper{
+	text-align: center;
+}
+
+.room-title{
+	font-family: "Hiragino Sans";
+	color:#000000;
+	font-size: 16px;
+	margin-top: 30px;
+	font-weight: 300;
+}
+
+.room-title span{
+	font-family: "Hiragino Sans";
+	color:#000000;
+	font-size: 24px;
+	font-weight: 300;
+	margin-top: 30px;
+}
+
+/*タブ切り替え全体のスタイル*/
+.tabs {
+  background-color: #fff;
+  width: 100%;
+	margin-top: 25px;
+}
+
+/*タブのスタイル*/
+.tab_item {
+  width: calc(100%/4);
+  height: 50px;
+  border-bottom: 3px solid #CC0000;
+  background-color: #d9d9d9;
+  line-height: 50px;
+  font-size: 24px;
+  text-align: center;
+  color: #565656;
+  display: block;
+  float: left;
+  text-align: center;
+	font-family: "Hiragino Sans";
+	font-weight: 400;
+  transition: all 0.2s ease;
+}
+.tab_item:hover {
+  opacity: 0.75;
+}
+
+/*ラジオボタンを全て消す*/
+input[name="tab_item"] {
+  display: none;
+}
+
+/*タブ切り替えの中身のスタイル*/
+.tab_content {
+  display: none;
+  padding-top: 40px;
+  clear: both;
+  overflow: hidden;
+}
+
+/*選択されているタブのコンテンツのみを表示*/
+#room1:checked ~ #room1_content,
+#room2:checked ~ #room2_content,
+#room3:checked ~ #room3_content,
+#room4:checked ~ #room4_content {
+  display: block;
+}
+
+/*選択されているタブのスタイルを変える*/
+.tabs input:checked + .tab_item {
+  background-color: #CC0000;
+	color: #fff;
+	font-family: "Hiragino Sans";
+	font-weight: 400;
+}
+
+.content-title{
+	border-bottom: 2px solid #CC0000;
+	padding-bottom: 8px;
+	color:#CC0000;
+	font-family: "Hiragino Sans";
+	font-weight: 500;
+	font-size: 24px;
+}
+
+.schedule-table{
+	width: 100%;
+	margin-top: 25px;
+	border-collapse: collapse;
+}
+
+.schedule-table th{
+	background-color: #eee;
+	font-family: "Hiragino Sans";
+	color:#000000;
+	font-size: 18px;
+	font-weight: 400;
+	padding: 15px 0px;
+	border: 1px solid #a3a3a3;
+}
+
+.schedule-table td{
+	font-family: "Hiragino Sans";
+	color:#CC0000;
+	font-size: 18px;
+	font-weight: 400;
+	padding: 15px 0px;
+	border: 1px solid #707070;
+	text-align: center;
+}
+
+.schedule-text{
+	font-family: "Hiragino Sans";
+	color:#000000;
+	font-size: 18px;
+	font-weight: 300;
+	margin-top: 18px;
+	line-height: 30px;
+}
+
+.price-wrapper{
+	margin-top: 60px;	
+}
+
+.price-table{
+	width: 100%;
+  border-collapse: collapse;
+	border-spacing: 0;
+	margin-top: 30px;
+}
+
+.price-table th, .price-table td{
+  font-family: "Hiragino Sans";
+	color:#000000;
+	font-size: 18px;
+	font-weight: 400;
+	padding: 10px 0px;
+	border: 1px solid #a3a3a3;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 30px;
+}
+
+.price-table tr:nth-child(even){
+  background-color: #eee;
+}
+
+.price-table td span{
+	font-family: "Hiragino Sans";
+	color:#CC0000;
+}
+
+.price-wrapper p{
+	font-family: "Hiragino Sans";
+	color:#000000;
+	font-size: 16px;
+	font-weight: 300;
+	margin-top: 15px;
+	line-height: 25px;
+}
+
+.acccess-wrapper{
+	margin-top: 60px;
+}
+
+.access-contents{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 30px;
+}
+
+.access-text{
+	width: 55%;
+}
+
+.access-img{
+	width: 100%;
+}
+
+.access-text h2{
+	font-family: "Hiragino Sans";
+	color:#000000;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 34px;
+}
+
+.access-text p{
+	font-family: "Hiragino Sans";
+	color:#000000;
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 34px;
+	margin-top: 30px;
+}
+
+iframe{
+	margin-top: 15px;
+}
+
+.acccess-wrapper a{
+	font-family: "Hiragino Sans";
+	color:#797979;
+	font-size: 14px;
+}
+
+footer{
+	margin-top: 50px;
+}
+
+
+
+@media screen and (max-width: 1020px) {
+.header-center-text{
+	display: flex;
+	justify-content: space-around;
+	padding: 0px 20px;
+}
+
+.menu2{
+	border-right: none;
+	padding: 0px;
+}
+
+.contents{
+	padding: 0px 25px;
+}
+
+.main-contents{
+	padding: 0px 0px 30px 40px;
+}
+
+.room-title span{
+	font-size: 20px;
+}
+	
+.tab_item{
+	font-size: 20px;
+	height: 40px;
+	line-height: 38px;
+}
+
+.tab_content {
+  padding-top: 30px;
+}
+
+.content-title{
+	font-size: 20px;
+}
+
+.schedule-text{
+	font-size: 16px;
+	line-height: 25px;
+	margin-top: 15px;
+}
+
+.schedule-table th{
+	font-size: 16px;
+	font-weight: 400;
+	padding: 10px 0px;
+}
+
+.schedule-table td{
+	font-size: 16px;
+}
+
+.price-table th, .price-table td{
+	font-size: 15px;
+}
+
+.price-table th{
+	width: 13%;
+}
+
+.access-image{
+	width: 40%;
+}
+
+.access-text h2{
+	font-size: 18px;
+	line-height: 25px;
+}
+
+.access-text p{
+	font-size: 16px;
+	line-height: 25px;
+	margin-top: 25px;
+}
+}
+
+@media screen and (min-width: 768px){
+	.price-table2{
+		display: none;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.contents{
+		padding: 0px 40px;
+	}
+
+	.side_content{
+	display: none;
+}
+
+.main-logo-wrapper{
+	display: none;
+}
+
+.header-center-text{
+	display: none;
+}
+
+.main-contents{
+	padding-left: 0px;
+	margin-top: 70px;
+}
+
+.tab_item{
+	width: calc(100%/4);
+	font-size: 16px;
+	height: 40px;
+	line-height: 38px;
+}
+
+.schedule-text{
+	font-size: 14px;
+	line-height: 25px;
+	margin-top: 15px;
+}
+
+.schedule-table th{
+	font-size: 14px;
+}
+
+.schedule-table td{
+	font-size: 14px;;
+}
+
+.price-table{
+	display: none;
+}
+
+.price-table2{
+	width: 100%;
+  border-collapse: collapse;
+	border-spacing: 0;
+	margin-top: 30px;
+}
+
+.price-table2 th, .price-table2 td{
+  font-family: "Hiragino Sans";
+	color:#000000;
+	font-size: 18px;
+	font-weight: 300;
+	padding: 10px 0px;
+	border: 1px solid #a3a3a3;
+	vertical-align: middle;
+	line-height: 30px;
+}
+
+.price-table2 th{
+	width: 20%;
+	text-align: center;
+}
+
+.price-table2 td{
+	width: 70%;
+	text-align: left;
+	padding-left: 20px;
+}
+
+.price-table2 tr:nth-child(even){
+  background-color: #eee;
+}
+
+.price-table2 td span{
+	font-family: "Hiragino Sans";
+	color:#CC0000;
+}
+
+}
+
+@media screen and (min-width: 441px) {
+	.schedule-table2{
+		display: none;
+	}
+
+
+}
+
+@media screen and (max-width: 440px) {
+.contents{
+	padding: 0px 20px;
+}
+
+.tab_item {
+	width: calc(100%/4);
+	font-size: 14px;
+}
+
+	.schedule-table{
+	display: none;
+}
+
+.schedule-table2{
+	width: 100%;
+	margin-top: 25px;
+	border-collapse: collapse;
+}
+
+.schedule-table2 th{
+	background-color: #eee;
+	border: 1px solid #a3a3a3;
+}
+
+.days{
+	font-family: "Hiragino Sans";
+	color:#000000;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 15px 0px;
+	
+}
+
+.schedule-table2 td{
+	font-family: "Hiragino Sans";
+	color:#CC0000;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 15px 0px;
+	border: 1px solid #707070;
+	text-align: center;
+	width: 60%;
+}
+
+.time{
+	background-color: #eee;
+	font-family: "Hiragino Sans";
+	color:#000000;
+	font-size: 14px;
+	font-weight: 400;
+	padding: 15px 0px;
+}
+
+.price-table2 th, .price-table2 td{
+  font-family: "Hiragino Sans";
+	color:#000000;
+	font-size: 14px;
+	font-weight: 400;
+	padding: 10px 0px;
+	border: 1px solid #a3a3a3;
+	vertical-align: middle;
+	line-height: 30px;
+}
+
+.price-table2 th{
+	width: 20%;
+	text-align: center;
+}
+
+.price-table2 td{
+	width: 70%;
+	text-align: left;
+	padding-left: 10px;
+}
+
+.price-table2 tr:nth-child(even){
+  background-color: #eee;
+}
+
+.price-table2 td span{
+	font-family: "Hiragino Sans";
+	color:#CC0000;
+}
+
+.access-contents{
+	display: block;
+}
+
+.access-text{
+	margin: 20px auto;
+	width: 90%;
+}
+
+.access-image{
+	width: 90%;
+	margin: 0 auto;
+}
+
+.access-img{
+	width: 100%;
+}
+
+.access-text h2{
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 30px;
+}
+
+.access-text p{
+	font-size: 16px;
+	line-height: 25px;
+	margin-top: 20px;
+}
+}
+
